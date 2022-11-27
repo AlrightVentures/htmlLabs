@@ -1,0 +1,65 @@
+.btn {
+  margin: 25px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerText {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+.table-top {
+    padding-top: 25px;
+}
+
+.shape-table {
+    padding: 50px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(41, 209, 25);
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(17, 9, 162);
+    border-radius: 50%;
+  }
+
+  .nav-link {
+    color: black;
+  }
+
+  .oval {
+    height: 100px;
+    width: 50px;
+    background-color: rgb(250, 151, 21);
+    border-radius: 50%;
+  }
+
+  table, th, td {
+    border: 0.5px solid black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    table-layout: auto; 
+    /* width: 50%; */
+  }
+
+  .triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid rgb(177, 7, 7);
+}
